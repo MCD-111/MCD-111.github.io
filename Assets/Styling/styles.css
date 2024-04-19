@@ -103,3 +103,60 @@ img {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
   }
+
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .MCD Facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+.insta-icon {
+        --insta-icon-size: 128px;
+        position: relative;
+        width: var(--insta-icon-size);
+        height: var(--insta-icon-size);
+        border-radius: 20%;
+        background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+      }
+      .insta-icon:after,
+      .insta-icon:before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: calc(var(--insta-icon-size)/1.5);
+        height: calc(var(--insta-icon-size)/1.5);
+        border: calc(var(--insta-icon-size)/18) solid #fff;
+        transform: translate(-50%, -50%);
+        content: ''
+      }
+      .insta-icon:before {
+        border-radius: 20%
+      }
+      .insta-icon:after {
+        width: calc(var(--insta-icon-size)/4);
+        height: calc(var(--insta-icon-size)/4);
+        border-radius: 50%
+      }
+
+
+  /*YouTube*/
+  .MCD YouTube {
+    background: red;
+    color: white;
+  }
